@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logorahibet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Teen Patti Casino"
+        android:textColor="#c3a177"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience the thrill of Teen Patti and earn real money!"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewFeatures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Key Features:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_below="@id/textViewDescription"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewFeature1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ Play exciting Teen Patti games with friends and players worldwide."
+        android:textColor="#ffffff"
+        android:layout_below="@id/textViewFeatures"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewFeature2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ Win real money by participating in tournaments and challenges."
+        android:textColor="#ffffff"
+        android:layout_below="@id/textViewFeature1"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewFeature3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ Secure and fast transactions for hassle-free withdrawals."
+        android:textColor="#ffffff"
+        android:layout_below="@id/textViewFeature2"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewFeature4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ Enjoy a variety of game modes and unique challenges."
+        android:textColor="#ffffff"
+        android:layout_below="@id/textViewFeature3"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewFeature5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ Daily bonuses and promotions to boost your winnings."
+        android:textColor="#ffffff"
+        android:layout_below="@id/textViewFeature4"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewFeature6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ Interactive and user-friendly interface for an immersive experience."
+        android:textColor="#ffffff"
+        android:layout_below="@id/textViewFeature5"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Now"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+    android:background="@color/red"
+    android:layout_below="@id/textViewFeature6"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="32dp"
+    android:padding="12dp"/>
+
+</RelativeLayout>
