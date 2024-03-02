@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.teenpatti">
+    package="casino.teenaptticasino">
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -20,7 +20,7 @@
         tools:targetApi="31">
 
         <activity
-            android:name="com.teenpatti.MainActivity"
+            android:name="casino.teenaptticasino.MainActivity"
             android:exported="true"
 
             >

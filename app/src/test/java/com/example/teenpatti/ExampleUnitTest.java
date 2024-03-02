@@ -1,4 +1,4 @@
-package com.teenpatti.teenpatti;
+package casino.teenaptticasino.teenpatti;
 
 import org.junit.Test;
 

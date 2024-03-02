@@ -1,4 +1,4 @@
-package com.teenpatti;
+package casino.teenaptticasino;
 
 import android.content.Intent;
 import android.net.Uri;
